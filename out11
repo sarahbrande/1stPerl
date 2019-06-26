@@ -1,0 +1,6 @@
+tut11a Matched: 'DE75883'
+also Matched: 'DE75883'
+also Matched with \d{5}: 'DE75883'
+also Matched with \d{3,6}: 'DE75883'
+also Matched with \d{3,4}: 'DE7588'
+also Matched with \d{3,}: 'DE75883'
