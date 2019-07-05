@@ -1,0 +1,11 @@
+install cygwin and then perl.
+serch or perl.exe, look up properties, copy path, but in environmental variables.
+now can type perl from cmd prompt
+
+Should be able to type perl from command line type perl.
+for example >perl tut3c
+<RightMouse>
+C:\Users\sarah\Desktop\Udemy\PerlCourse>perl tut8b.pl green eggs
+
+
+to install a package do a search on perl from start menu and select package manager.  
