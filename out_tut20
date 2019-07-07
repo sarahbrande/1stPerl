@@ -1,0 +1,7 @@
+$VAR1 = {
+          'cat' => 'meat',
+          'birds' => 'seeds',
+          'fish' => 'worms'
+        };
+seeds
+worms
