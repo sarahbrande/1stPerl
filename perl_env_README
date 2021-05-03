@@ -9,3 +9,9 @@ C:\Users\sarah\Desktop\Udemy\PerlCourse>perl tut8b.pl green eggs
 
 
 to install a package do a search on perl from start menu and select package manager.  
+
+to use command prompt perl change environmental variable C:\cygwin64\bin (if that is where it is).  type perl -v to see if that took
+
+name your file filename.pl and then at the prompt type perl filename.pls
+
+OR...   you can install gitbash and have a linuxish system.  type perl filename.pl
