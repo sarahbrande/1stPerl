@@ -1,0 +1,35 @@
+perl notes:
+
+questions:  ARGV vs $_ @_
+
+
+       my keyword in Perl declares the listed variable to be local to the enclosing block in which it is defined.
+ 
+   pod and cut  multiline comment plain old documentation
+     
+     $| = 1; forces a flush after every write or print, so the output appears as soon as it's generated rather than being buffered  
+     @_ is the default array
+	
+tut9c.pl:use strict;                                               #forces variable declarations
+tut9c.pl:$|=1;                                                     #turns off buffering to terminal on linux/unix systems
+
+
+ if($line =~ s/cornflowers/bachelor buttons/ig) {     # ~=matches the slashes tell it to search (awk-like) actually, almost exactly vi i=case insensitive, g global
+
+  open(INPUT,$input_file) or die("Input file $input_file not found"); #if the 1st arg is true, goes to next line b/c interpreter knows the whole line is true with or statement. put /n after die words to suppress line number report
+
+https://learn.perl.org/docs/keywords.html
+
+qw = quote word (add quotest to each word). qw(Geeks for Geeks) is equivalent to ('Geeks', 'for', 'Geeks')
+
+my $opts_ref = \%opts;  (\%opts is location of %opts)
+
+
+tut7a.pl:               if($line =~ /gr..n/) {                           #if matches green.  You can put a . as a wild card
+
+print Dumper(\@files);   "\" is the reference to the files array
+
+	$/ = "</entry>";  # record separator/delimiter instead of \n
+ undef $/  # undefines the record separator - this enables you to read whole file instead chunks.
+
+
